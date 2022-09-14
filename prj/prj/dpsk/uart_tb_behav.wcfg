@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="uart_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="\$unit_adc_sv_2170288681 " />
+            <top_module name="glbl" />
+            <top_module name="uart_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000000 ms"></ZoomStartTime>
+      <ZoomEndTime time="1,655.000000001 ms"></ZoomEndTime>
+      <Cursor1Time time="800.001000000 ms"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="486"></NameColumnWidth>
+      <ValueColumnWidth column_width="198"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="61" />
+   <wvobject fp_name="divider60" type="divider">
+      <obj_property name="label">uart_rec</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/uart_tb/u_top/u_uart_rec/uart_rx">
+      <obj_property name="ElementShortName">uart_rx</obj_property>
+      <obj_property name="ObjectShortName">uart_rx</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/uart_tb/u_top/u_uart_rec/uart_rx_ready">
+      <obj_property name="ElementShortName">uart_rx_ready</obj_property>
+      <obj_property name="ObjectShortName">uart_rx_ready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/uart_tb/u_top/u_uart_rec/uart_rx_valid">
+      <obj_property name="ElementShortName">uart_rx_valid</obj_property>
+      <obj_property name="ObjectShortName">uart_rx_valid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/uart_tb/u_top/u_uart_rec/uart_rx_data">
+      <obj_property name="ElementShortName">uart_rx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">uart_rx_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider65" type="divider">
+      <obj_property name="label">mod</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/uart_tb/u_top/u_mod_top/uart_mod_valid">
+      <obj_property name="ElementShortName">uart_mod_valid</obj_property>
+      <obj_property name="ObjectShortName">uart_mod_valid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/uart_tb/u_top/u_mod_top/uart_mod_data">
+      <obj_property name="ElementShortName">uart_mod_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">uart_mod_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/uart_tb/u_top/u_mod_top/mod_uart_ready">
+      <obj_property name="ElementShortName">mod_uart_ready</obj_property>
+      <obj_property name="ObjectShortName">mod_uart_ready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/uart_tb/u_top/u_mod_top/mod_dac_data">
+      <obj_property name="ElementShortName">mod_dac_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mod_dac_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/uart_tb/u_top/u_mod_top/mod_dac_valid">
+      <obj_property name="ElementShortName">mod_dac_valid</obj_property>
+      <obj_property name="ObjectShortName">mod_dac_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider72" type="divider">
+      <obj_property name="label">dac</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/uart_tb/u_top/u_dac/mod_dac_data">
+      <obj_property name="ElementShortName">mod_dac_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mod_dac_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/uart_tb/u_top/u_dac/mod_dac_valid">
+      <obj_property name="ElementShortName">mod_dac_valid</obj_property>
+      <obj_property name="ObjectShortName">mod_dac_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/uart_tb/u_top/u_dac/dac_clk">
+      <obj_property name="ElementShortName">dac_clk</obj_property>
+      <obj_property name="ObjectShortName">dac_clk</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/uart_tb/u_top/u_dac/dac_data">
+      <obj_property name="ElementShortName">dac_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dac_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider73" type="divider">
+      <obj_property name="label">adc</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/uart_tb/u_top/u_adc/adc_data">
+      <obj_property name="ElementShortName">adc_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">adc_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/uart_tb/u_top/u_adc/adc_otr">
+      <obj_property name="ElementShortName">adc_otr</obj_property>
+      <obj_property name="ObjectShortName">adc_otr</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/uart_tb/u_top/u_adc/adc_costas_data_valid">
+      <obj_property name="ElementShortName">adc_costas_data_valid</obj_property>
+      <obj_property name="ObjectShortName">adc_costas_data_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/uart_tb/u_top/u_adc/adc_costas_data_valid_t">
+      <obj_property name="ElementShortName">adc_costas_data_valid_t</obj_property>
+      <obj_property name="ObjectShortName">adc_costas_data_valid_t</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/uart_tb/u_top/u_adc/adc_costas_data">
+      <obj_property name="ElementShortName">adc_costas_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">adc_costas_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/uart_tb/u_top/u_adc/adc_clk">
+      <obj_property name="ElementShortName">adc_clk</obj_property>
+      <obj_property name="ObjectShortName">adc_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider71" type="divider">
+      <obj_property name="label">costas</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/uart_tb/u_top/u_costas/adc_costas_data">
+      <obj_property name="ElementShortName">adc_costas_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">adc_costas_data[7:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/uart_tb/u_top/u_costas/adc_costas_valid">
+      <obj_property name="ElementShortName">adc_costas_valid</obj_property>
+      <obj_property name="ObjectShortName">adc_costas_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/uart_tb/u_top/u_costas/costas_bitsync_valid">
+      <obj_property name="ElementShortName">costas_bitsync_valid</obj_property>
+      <obj_property name="ObjectShortName">costas_bitsync_valid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/uart_tb/u_top/u_costas/i_lpfed_t">
+      <obj_property name="ElementShortName">i_lpfed_t[33:0]</obj_property>
+      <obj_property name="ObjectShortName">i_lpfed_t[33:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/uart_tb/u_top/u_costas/i_lpfed">
+      <obj_property name="ElementShortName">i_lpfed[15:0]</obj_property>
+      <obj_property name="ObjectShortName">i_lpfed[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+      <obj_property name="AnalogYRangeMin">28299.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">32313.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_LINEAR</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/uart_tb/u_top/u_costas/q_lpfed">
+      <obj_property name="ElementShortName">q_lpfed[15:0]</obj_property>
+      <obj_property name="ObjectShortName">q_lpfed[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/uart_tb/u_top/u_costas/u_lf/lf_in">
+      <obj_property name="ElementShortName">lf_in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">lf_in[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_FIXED</obj_property>
+      <obj_property name="AnalogYRangeMin">-339.931</obj_property>
+      <obj_property name="AnalogYRRangeMax">125.569</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/uart_tb/u_top/u_costas/u_lf/acc">
+      <obj_property name="ElementShortName">acc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">acc[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/uart_tb/u_top/u_costas/u_lf/c1_mul_lf_in">
+      <obj_property name="ElementShortName">c1_mul_lf_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c1_mul_lf_in[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/uart_tb/u_top/u_costas/u_lf/c2_mul_acc">
+      <obj_property name="ElementShortName">c2_mul_acc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c2_mul_acc[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/uart_tb/u_top/u_costas/costas_bitsync_data">
+      <obj_property name="ElementShortName">costas_bitsync_data</obj_property>
+      <obj_property name="ObjectShortName">costas_bitsync_data</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider76" type="divider">
+      <obj_property name="label">bit_sync</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/uart_tb/u_top/u_bit_sync/cnt_delay_sum">
+      <obj_property name="ElementShortName">cnt_delay_sum[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt_delay_sum[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/uart_tb/u_top/u_bit_sync/cnt_delay">
+      <obj_property name="ElementShortName">cnt_delay[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt_delay[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/uart_tb/u_top/u_bit_sync/cnt_delay1">
+      <obj_property name="ElementShortName">cnt_delay1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt_delay1[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/uart_tb/u_top/u_bit_sync/cnt_delay2">
+      <obj_property name="ElementShortName">cnt_delay2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt_delay2[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/uart_tb/u_top/u_bit_sync/data_change">
+      <obj_property name="ElementShortName">data_change</obj_property>
+      <obj_property name="ObjectShortName">data_change</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/uart_tb/u_top/u_bit_sync/div_clk_en">
+      <obj_property name="ElementShortName">div_clk_en</obj_property>
+      <obj_property name="ObjectShortName">div_clk_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/uart_tb/u_top/u_bit_sync/costas_bitsync_data">
+      <obj_property name="ElementShortName">costas_bitsync_data</obj_property>
+      <obj_property name="ObjectShortName">costas_bitsync_data</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/uart_tb/u_top/u_bit_sync/bitsync_data">
+      <obj_property name="ElementShortName">bitsync_data</obj_property>
+      <obj_property name="ObjectShortName">bitsync_data</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/uart_tb/u_top/u_bit_sync/bitsync_data_valid">
+      <obj_property name="ElementShortName">bitsync_data_valid</obj_property>
+      <obj_property name="ObjectShortName">bitsync_data_valid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/uart_tb/u_top/u_bit_sync/c1_mul_delay">
+      <obj_property name="ElementShortName">c1_mul_delay[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c1_mul_delay[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/uart_tb/u_top/u_bit_sync/c2_mul_delay_sum">
+      <obj_property name="ElementShortName">c2_mul_delay_sum[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c2_mul_delay_sum[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/uart_tb/u_top/u_bit_sync/check_inv">
+      <obj_property name="ElementShortName">check_inv</obj_property>
+      <obj_property name="ObjectShortName">check_inv</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/uart_tb/u_top/u_bit_sync/cnt_div">
+      <obj_property name="ElementShortName">cnt_div[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt_div[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/uart_tb/u_top/u_bit_sync/cnt_div_t">
+      <obj_property name="ElementShortName">cnt_div_t[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt_div_t[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider80" type="divider">
+      <obj_property name="label">deframe</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/uart_tb/u_top/u_deframe/bitsync_deframe_data">
+      <obj_property name="ElementShortName">bitsync_deframe_data</obj_property>
+      <obj_property name="ObjectShortName">bitsync_deframe_data</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/uart_tb/u_top/u_deframe/bitsync_deframe_data_vld">
+      <obj_property name="ElementShortName">bitsync_deframe_data_vld</obj_property>
+      <obj_property name="ObjectShortName">bitsync_deframe_data_vld</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/uart_tb/u_top/u_deframe/deframe_uart_data">
+      <obj_property name="ElementShortName">deframe_uart_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">deframe_uart_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/uart_tb/u_top/u_deframe/deframe_uart_data_vld">
+      <obj_property name="ElementShortName">deframe_uart_data_vld</obj_property>
+      <obj_property name="ObjectShortName">deframe_uart_data_vld</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/uart_tb/u_top/u_deframe/uart_deframe_ready">
+      <obj_property name="ElementShortName">uart_deframe_ready</obj_property>
+      <obj_property name="ObjectShortName">uart_deframe_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider86" type="divider">
+      <obj_property name="label">uart_send</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/uart_tb/u_top/u_uart_send/deframe_uart_data">
+      <obj_property name="ElementShortName">deframe_uart_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">deframe_uart_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/uart_tb/u_top/u_uart_send/deframe_uart_data_vld">
+      <obj_property name="ElementShortName">deframe_uart_data_vld</obj_property>
+      <obj_property name="ObjectShortName">deframe_uart_data_vld</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/uart_tb/u_top/u_uart_send/uart_deframe_ready">
+      <obj_property name="ElementShortName">uart_deframe_ready</obj_property>
+      <obj_property name="ObjectShortName">uart_deframe_ready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/uart_tb/u_top/u_uart_send/uart_tx">
+      <obj_property name="ElementShortName">uart_tx</obj_property>
+      <obj_property name="ObjectShortName">uart_tx</obj_property>
+   </wvobject>
+</wave_config>
